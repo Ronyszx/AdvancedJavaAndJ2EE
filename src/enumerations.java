@@ -1,4 +1,4 @@
-public class main {
+public class enumerations {
     public enum week{
         SUNDAY,
         MONDAY,
