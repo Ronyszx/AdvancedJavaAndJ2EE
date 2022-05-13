@@ -1,5 +1,5 @@
 public class enumerations {
-    /*So i will basically be printing out enums with the following methods values(), valueOf(), ordinal()*/
+    /*So i will basically be printing out enums with the following methods values(), valueOf(), ordinalOf()*/
     public enum week{
         SUNDAY,
         MONDAY,
@@ -9,6 +9,7 @@ public class enumerations {
         FRIDAY,
         SATURDAY
     }
+
     public static void main(String[] args){
         for(week w: week.values()){
             System.out.println(w);
