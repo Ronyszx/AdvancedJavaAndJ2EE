@@ -15,6 +15,8 @@ public class enumerationsSwitchEx {
             break;
             case TUESDAY: System.out.println(week.TUESDAY);
             break;
+            case WEDNESDAY: System.out.println(week.TUESDAY);
+            break;
             default: System.out.println("Wrong");
         }
     }

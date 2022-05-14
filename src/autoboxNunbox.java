@@ -11,6 +11,9 @@ public class autoboxNunbox {
         Integer c = 20;
         int d = c;
         System.out.println(c + "This is unboxing" + c);
-    }
 
+        String s1 = "ABCD";
+        byte[] by =s1.getBytes();
+        System.out.println(by);
+    }
 }
