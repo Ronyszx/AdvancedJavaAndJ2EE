@@ -1,4 +1,8 @@
 public class enumerationsSwitchEx {
+
+    /*
+    Program to demonstrate use of enum with switch statement
+     */
     public enum week{
         SUNDAY,
         MONDAY,

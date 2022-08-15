@@ -1,19 +1,22 @@
 public class autoboxNunbox {
+    /*
+    The automatic conversion or primitive data type into its equivalent wrapper type is auto-boxing
+     */
+
     public static void main(String[] args) {
         int a = 50;
-        Integer b = new Integer(a);
-        System.out.println(a + "This is autoBoxing " + b);
+        Integer i = new Integer(a);
+        Integer j = new Integer(10);
+        System.out.println(i + " " + j);
 
-        if (b < 100) {
-            System.out.println(b);
+
+    /*
+        The opposite function is autounboxing
+     */
+
+        for(int k =0; k< j; k++  ){
+            System.out.println(j);
         }
 
-        Integer c = 20;
-        int d = c;
-        System.out.println(c + "This is unboxing" + c);
-
-        String s1 = "ABCD";
-        byte[] by =s1.getBytes();
-        System.out.println(by);
     }
 }
